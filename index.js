@@ -8,6 +8,8 @@ const students = [
     {id: 1, name: 'Miguel', age: 20, enroll: true},
     {id: 2, name: 'Aydee',  age: 35, enroll: false},
     {id: 3, name: 'Teo',    age: 40, enroll: false},
+    {id: 4, name: 'Luis',    age: 20, enroll: false},
+    {id: 5, name: 'Foncho',    age: 24, enroll: false},
 ];
 
 app.get('/',(req, res) => {
